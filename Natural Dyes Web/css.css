@@ -1,0 +1,203 @@
+html{
+	font: 100%/1 sans-serif;
+	background-color: #ffffff;
+	font-family: 'Sansita', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Lobster', cursive;
+}
+
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*body {
+	margin: 0 auto;
+	/*display: flex; */
+}
+
+body {
+    margin: 0;
+    }
+
+
+
+h1 {
+	font-family: 'Lobster', cursive;;
+  margin-top: 3em;
+	font-size: 3em;
+	text-align: center;
+  margin-bottom: 2em;
+}
+
+hr{
+	border: none;
+	height: 5px;
+	background-color: #000;
+	width: 90%;
+	margin-bottom: 1em;
+}
+
+h3,
+h6,
+h4,
+p,
+ol {
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.5em;
+}
+
+h6{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+strong p{
+  border-left: 6px solid #bad61f;
+	margin: 2em;
+	width: 70%;
+	padding-left: 2em;
+}
+
+strong{
+	display: block;
+}
+
+#pink{
+	margin-bottom: 2em;
+}
+
+#lines{
+	position: absolute;
+	margin-left: 12em;
+}
+
+summary #lines img{
+	height: 6em;
+	width: auto;
+	padding-left: 8em;
+}
+
+#beanimg{
+	position: relative;
+	text-align: center;
+}
+
+#blue{
+	margin-bottom: 2em;
+}
+
+#squiggle img{
+  height: 12px;
+	width: auto;
+	display: block;
+}
+
+#squiggle {
+  margin-left: 7em;
+}
+
+#circles{
+	position: absolute;
+}
+
+summary #circles img{
+	height: 6em;
+	width: auto;
+	padding-left: 4em;
+}
+
+#turmericimg{
+	position: relative;
+	text-align: center;
+}
+
+
+details[open] SUMMARY ~ * {
+  animation: sweep .75s ease-in;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+}
+
+summary{
+	visibility: hidden;
+	cursor: pointer;
+	text-align: center;
+	z-index: 1;
+}
+
+summary img{
+	visibility: visible;
+	width: 20%;
+	height: auto;
+}
+
+details p, ol{
+	margin: 2em;
+}
+
+details h3, h4{
+	margin: 1em;
+}
+
+
+/*-------media breakpoint--------*/
+
+
+
+@media (min-width: 35em){
+
+main{
+		display: flex;
+	}
+
+#squiggle img{
+	visibility: hidden;
+	margin: 0;
+}
+
+#lines img{
+	visibility: hidden;
+}
+
+#squiggle{
+	margin: 0;
+	visibility: hidden;
+}
+
+#heading{
+	display: inline-block;
+	/*width: 40%;*/
+}
+
+#ingredients{
+	display: inline-block;
+	/*width: 25%;*/
+}
+
+#materials{
+	display: inline-block;
+	/*width: 25%;*/
+}
+
+#how-to{
+	display: inline-block;
+	/*width: 50%;*/
+}
+
+body{
+	margin: 1em;
+}
+
+hr{
+	width: 100%;
+}
+
+
+
+}
